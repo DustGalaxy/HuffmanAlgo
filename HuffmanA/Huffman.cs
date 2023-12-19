@@ -7,6 +7,9 @@ namespace HuffmanA
 {
     internal class Huffman
     {
+
+
+
         public void CompressFile(string dataFilename, string outFilename)
         {
             byte[] data = File.ReadAllBytes(dataFilename);
